@@ -108,8 +108,7 @@ h3{
   font-family:  'Poppins', sans-serif;
 }
 .image-section {
-  background-color: #000032;      
-  min-height: 100vh;              
+  background-color: #000032;                    
   padding: 40px 0;                
   text-align: center;            
 }
@@ -121,3 +120,53 @@ h3{
   background-color: white;                                    
   text-align: center;            
 }
+.cta{
+  background-image: url("../img/image 3.png");
+}
+.btn{
+   font-family:  'Poppins', sans-serif;
+}
+
+.image-parent{
+  position: relative;
+
+
+}
+.image-parent img{
+  position: absolute;
+top: -154px;
+right: -57px;
+width: 300px;
+
+}
+
+.image-section p{
+     font-family:  'Poppins', sans-serif;
+     font-size: 14px;
+}
+
+.image-parent2{
+  position: relative;
+  left: 0;
+}
+
+ul{
+  list-style-type: none;
+ 
+}
+
+.vertical-listli:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.vertical-list li {
+  margin-bottom: 10px; 
+}
+
+
+.line {
+      border-left: 1px solid #999; /* vertical line */
+      height: 200px; /* adjust as needed */
+      margin-right: 20px;
+    }
+
